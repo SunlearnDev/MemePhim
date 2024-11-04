@@ -27,7 +27,9 @@ const HeroSlide = () => {
   const { data, isLoading } = useQuery({
     queryKey: ["latest_videos"],
     queryFn: async () => {
-      const response = await fetch("https://phimapi.com/v1/api/danh-sach/hoat-hinh");
+      const response = await fetch(
+        "https://phimapi.com/v1/api/danh-sach/hoat-hinh"
+      );
       const result = await response.json();
       return result.data.items.slice(0, 7);
     },
@@ -99,14 +101,12 @@ const Slice = memo(({ video }: SliceProps) => {
           </div>
           <div className="buttons mt-8 flex gap-6">
             <Link
-              to={`/phim/${video.type}/${video._id}`}
+              to={`/movies/${video.type}/${video._id}`}
               className="watch-btn banner-btn border-dark-teal text-dark-teal hover:bg-dark-teal hover:text-white"
             >
               <BsFillPlayFill size={20} /> Watch now
             </Link>
-            <button
-              className="add-btn banner-btn border-white/50 text-white/50 hover:bg-white hover:text-black"
-            >
+            <button className="add-btn banner-btn border-white/50 text-white/50 hover:bg-white hover:text-black">
               <BiMoviePlay size={16} /> Trailer
             </button>
           </div>
