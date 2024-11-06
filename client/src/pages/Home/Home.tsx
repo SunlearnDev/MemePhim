@@ -65,14 +65,14 @@ const Home = (props: Props) => {
     }
 
     return (
-        <div className='home bg-gray-900 mx-auto max-w-7xl p-4'>
+        <div className='home bg-black mx-auto max-w-7xl p-4'>
             <HeroSlide onClickTrailer={handleClickTrailer} />
 
-            <div className="main-content bg-gray-800 rounded-lg p-8 space-y-12">
+            <div className="main-content bg-black rounded-lg p-8 space-y-12">
                 
                 <section>
                     <Wrapper className='mt-4'>
-                        <h2 className='text-gray-100 text-3xl font-semibold relative hover:text-teal-400'>
+                        <h2 className='text-gray-100 text-3xl font-semibold relative hover:text-red-400'>
                             Top Trending 
                         </h2>
                         {trendingQuery.data && 
@@ -84,21 +84,21 @@ const Home = (props: Props) => {
 
                 <section>
                     <Wrapper>
-                        <h2 className='text-gray-100 text-3xl font-semibold flex gap-4 items-center relative hover:text-teal-400'>
+                        <h2 className='text-gray-100 text-3xl font-semibold flex gap-4 items-center relative hover:text-red-400'>
                             Top Rating
                             <div className='flex space-x-4'>
                                 <button 
                                     onClick={() => setTopRatingSelect("movie")} 
-                                    className={classNames('text-sm px-4 py-2 rounded-lg hover:bg-teal-600 transition', { 
-                                        'bg-teal-500 text-white': topRatingSelect === 'movie', 
+                                    className={classNames('text-sm px-4 py-2 rounded-lg hover:bg-red-600 transition', { 
+                                        'bg-red-500 text-white': topRatingSelect === 'movie', 
                                         'bg-gray-700 text-gray-300': topRatingSelect !== 'movie' 
                                     })}>
                                     <AiFillPlayCircle className='text-xl' /> Movies
                                 </button>
                                 <button 
                                     onClick={() => setTopRatingSelect("tv")} 
-                                    className={classNames('text-sm px-4 py-2 rounded-lg hover:bg-teal-600 transition', { 
-                                        'bg-teal-500 text-white': topRatingSelect === 'tv', 
+                                    className={classNames('text-sm px-4 py-2 rounded-lg hover:bg-red-600 transition', { 
+                                        'bg-red-500 text-white': topRatingSelect === 'tv', 
                                         'bg-gray-700 text-gray-300': topRatingSelect !== 'tv' 
                                     })}>
                                     <MdLiveTv className='text-xl' /> TV-Series
@@ -114,21 +114,21 @@ const Home = (props: Props) => {
 
                 <section>
                     <Wrapper>
-                        <h2 className='text-gray-100 text-3xl font-semibold flex gap-4 items-center relative hover:text-teal-400'>
+                        <h2 className='text-gray-100 text-3xl font-semibold flex gap-4 items-center relative hover:text-red-400'>
                             Popular
                             <div className='flex space-x-4'>
                                 <button 
                                     onClick={() => setPopularSelect("movie")} 
-                                    className={classNames('text-sm px-4 py-2 rounded-lg hover:bg-teal-600 transition', { 
-                                        'bg-teal-500 text-white': popularSelect === 'movie', 
+                                    className={classNames('text-sm px-4 py-2 rounded-lg hover:bg-red-600 transition', { 
+                                        'bg-red-500 text-white': popularSelect === 'movie', 
                                         'bg-gray-700 text-gray-300': popularSelect !== 'movie' 
                                     })}>
                                     <AiFillPlayCircle className='text-xl' /> Movies
                                 </button>
                                 <button 
                                     onClick={() => setPopularSelect("tv")} 
-                                    className={classNames('text-sm px-4 py-2 rounded-lg hover:bg-teal-600 transition', { 
-                                        'bg-teal-500 text-white': popularSelect === 'tv', 
+                                    className={classNames('text-sm px-4 py-2 rounded-lg hover:bg-red-600 transition', { 
+                                        'bg-red-500 text-white': popularSelect === 'tv', 
                                         'bg-gray-700 text-gray-300': popularSelect !== 'tv' 
                                     })}>
                                     <MdLiveTv className='text-xl' /> TV-Series
@@ -142,11 +142,11 @@ const Home = (props: Props) => {
                     </Wrapper>
                 </section>
 
-                <section className='latest-movies py-6 bg-gray-800 rounded-lg'>
+                <section className='latest-movies py-6 bg-black rounded-lg'>
                     <Wrapper>
-                        <h2 className='text-gray-100 text-3xl font-semibold flex items-center relative hover:text-teal-400'>
+                        <h2 className='text-gray-100 text-3xl font-semibold flex items-center relative hover:text-red-400'>
                             Movies
-                            <Link to={"/movies"} className='ml-auto text-sm text-teal-400 hover:text-teal-500 transition'>View all <MdKeyboardArrowRight /></Link>
+                            <Link to={"/movies"} className='ml-auto text-sm text-red-400 hover:text-red-500 transition'>View all<MdKeyboardArrowRight /></Link>
                         </h2>
                         <GridContainer className='gap-4 mt-6'>
                             {latestMovieQuery.data && latestMovieQuery.data.data.results.map((movie) => (
@@ -159,11 +159,11 @@ const Home = (props: Props) => {
                     </Wrapper>
                 </section>
 
-                <section className='latest-tv-series py-6 bg-gray-800 rounded-lg'>
+                <section className='latest-tv-series py-6 bg-black rounded-lg'>
                     <Wrapper>
-                        <h2 className='text-gray-100 text-3xl font-semibold flex items-center relative hover:text-teal-400'>
+                        <h2 className='text-gray-100 text-3xl font-semibold flex items-center relative hover:text-red-400'>
                             TV-Series
-                            <Link to={"/tv-series"} className='ml-auto text-sm text-teal-400 hover:text-teal-500 transition'>View all <MdKeyboardArrowRight /></Link>
+                            <Link to={"/tv-series"} className='ml-auto text-sm text-red-400 hover:text-red-500 transition'>View all<MdKeyboardArrowRight /></Link>
                         </h2>
                         <GridContainer className='gap-4 mt-6'>
                             {latestTVQuery.data && latestTVQuery.data.data.results.map((tv) => (

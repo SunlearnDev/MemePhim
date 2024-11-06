@@ -88,6 +88,7 @@ const Search = lazy(() => import("../pages/Search/Search"))
 const Favorite = lazy(() => import("../pages/Favorite/Favorite"))
 const Profile = lazy(() => import("../pages/Profile/Profile"))
 const Error404Page = lazy(() => import("../pages/Error/Error404Page"))
+const SaveLater = lazy(() => import("../pages/SaveLater/SaveLater"))
 
 const routeObj: RouteObject[] = [
   {
@@ -111,6 +112,10 @@ const routeObj: RouteObject[] = [
         element: <Suspense fallback={<Loader />}><Detail mediaType="movie" /></Suspense>
       },
       {
+        path: "/phim/:slug",
+        element: <Suspense fallback={<Loader />}><Detail mediaType="movie" /></Suspense>
+      },
+      {
         path: "/tv-series/:name/:id",
         element: <Suspense fallback={<Loader />}> <Detail mediaType="tv" /></Suspense>
       },
@@ -129,6 +134,10 @@ const routeObj: RouteObject[] = [
       {
         path: "/category",
         element: <Suspense fallback={<Loader />}><Category /></Suspense>
+      },
+      {
+        path: "/save-later",
+        element: <Suspense fallback={<Loader />}><SaveLater /></Suspense>
       }
     ]
   },
