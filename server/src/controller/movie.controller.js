@@ -4,7 +4,7 @@ const { OK, CREATED, SuccessResponse } = require("../core/success.respone");
 
 class CawlerMoviesController {
   static async GetMovieSlug(req, res, next) {
-    const { data, message } = await MovieService.getslug(
+    const { data, message } = await MovieService.findMovieBySlug(
       req.params
     );
     new SuccessResponse({
@@ -42,6 +42,28 @@ class CawlerMoviesController {
             data
         }
     }).send(res)
+  }
+  static async GetslugetMoviesByCategory(req, res, next) {
+    const { page } = req.query;
+    const { slug } = req.params;  
+    const { data } = await MovieService.getMoviesByCategory({ slug, page} );
+    new SuccessResponse({
+        message: "Movie fetched successfully",
+        metadata: {
+            data
+        }
+    }).send(res);
+  }
+  static async GetslugetMoviesByCountry(req, res, next) {
+    const { page } = req.query;
+    const { slug } = req.params;  
+    const { data } = await MovieService.getMoviesByCountry({ slug, page} );
+    new SuccessResponse({
+        message: "Movie fetched successfully",
+        metadata: {
+            data
+        }
+    }).send(res);
   }
 }
 

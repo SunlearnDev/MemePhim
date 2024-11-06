@@ -1,13 +1,110 @@
 "use strict";
 
-const { Movie } = require("../models/index");
+const { Movie, Category, Country } = require("../models/index");
 const EpisodeService = require("./episode.service");
 const CategoryService = require("./category.service");
 const CountryService = require("./country.sevice");
 const TmdbService = require("./tmdb.service");
+
+// Constants
+const DEFAULT_PAGE_SIZE = 10;
+const DEFAULT_MOVIE_ATTRIBUTES = [
+  "_id", "name", "slug", "origin_name", "content", "type", "status",
+  "poster_url", "thumb_url", "is_copyright", "sub_docquyen", "chieurap",
+  "trailer_url", "time", "episode_current", "episode_total", "quality",
+  "lang", "notify", "showtimes", "year", "view"
+];
+
+// Utility functions for reuse
+const PaginationHelper = {
+  calculateOffset: (page, limit) => (page - 1) * limit,
+  
+  async calculatePagination(totalItems, page, limit) {
+    const totalPages = Math.ceil(totalItems / limit);
+    return {
+      currentPage: page,
+      totalPages,
+      totalItems,
+    };
+  }
+};
+
+class MovieQueryBuilder {
+  static buildBaseQuery(options = {}) {
+    return {
+      ...options,
+      order: [["createdAt", "DESC"]]
+    };
+  }
+
+  static buildPaginatedQuery(page, limit, extraOptions = {}) {
+    const offset = PaginationHelper.calculateOffset(page, limit);
+    return {
+      ...this.buildBaseQuery(extraOptions),
+      limit: parseInt(limit, 10) || DEFAULT_PAGE_SIZE,
+      offset
+    };
+  }
+
+  static buildCategoryQuery(slug, limit, offset) {
+    return {
+      include: [{
+        model: Category,
+        as: "categories",
+        through: { attributes: [] },
+        attributes: ["name"],
+        where: { slug }
+      }],
+      ...this.buildPaginatedQuery(offset, limit)
+    };
+  }
+
+  static buildCountryQuery(slug, limit, offset) {
+    return {
+      include: [{
+        model: Country,
+        as: "countries",
+        through: { attributes: [] },
+        attributes: ["name"],
+        where: { slug }
+      }],
+      ...this.buildPaginatedQuery(offset, limit)
+    };
+  }
+}
+
+class RelationshipHandler {
+  static async handleRelationships(movie, { episodes, categories, countries }) {
+    const relationshipPromises = [
+      this.handleCategories(categories, movie._id),
+      this.handleCountries(countries, movie._id),
+      this.handleEpisodes(episodes, movie._id)
+    ];
+    
+    await Promise.all(relationshipPromises.flat());
+  }
+
+  static handleCategories(categories, movieId) {
+    return categories?.map(category => 
+      CategoryService.createCategory(category, movieId)
+    ) || [];
+  }
+
+  static handleCountries(countries, movieId) {
+    return countries?.map(country => 
+      CountryService.createCountry(country, movieId)
+    ) || [];
+  }
+
+  static handleEpisodes(episodes, movieId) {
+    return episodes?.map(episode => 
+      EpisodeService.createEpisodes(episode, movieId)
+    ) || [];
+  }
+}
+
 class MoviesService {
-  // Private helper method để kiểm tra tồn tại của movie
-  static async #checkMovieExists(id) {
+  static async findMovieById(id) {
     const movie = await Movie.findByPk(id);
     if (!movie) {
       throw new Error(`Movie with id ${id} not found`);
@@ -15,198 +112,117 @@ class MoviesService {
     return movie;
   }
 
-  // Private helper method để xử lý các relationships
-  static async #handleRelationships(
-    movie,
-    { episodes, categories, countries }
-  ) {
-    const promises = [
-      ...(categories?.map((category) =>
-        CategoryService.createCategory(category, movie._id)
-      ) || []),
-      ...(countries?.map((country) =>
-        CountryService.createCountry(country, movie._id)
-      ) || []),
-      ...(episodes?.map((episode) =>
-        EpisodeService.createEpisodes(episode, movie._id)
-      ) || []),
-    ];
-    await Promise.all(promises);
-  }
-  static async #paginationMovie({ page, limit } = {}) {
-    const totalItems = await Movie.count();
-    const totalPages = Math.ceil(totalItems / limit);
-    return {
-      pagination: {
-        currentPage: page,
-        totalPages,
-        totalItems,
-      },
-    };
-  }
-
-  static async findIdMovies(id) {
-    try {
-      return await Movie.findByPk(id);
-    } catch (error) {
-      throw new Error(`Error finding movie: ${error.message}`);
-    }
-  }
   static async getMovieAll() {
     try {
-      const movieAll = await Movie.findAll({
-        order: [["createdAt", "DESC"]],
-      });
+      const movieAll = await Movie.findAll(MovieQueryBuilder.buildBaseQuery());
+      return { data: movieAll, message: "Success" };
+    } catch (error) {
+      throw new Error(`Error fetching movies: ${error.message}`);
+    }
+  }
+
+  static async getMoviesPages({ page = 1, limit = DEFAULT_PAGE_SIZE, ...queryOptions } = {}) {
+    try {
+      const query = MovieQueryBuilder.buildPaginatedQuery(page, limit, queryOptions);
+      const moviePages = await Movie.findAndCountAll(query);
+      const pagination = await PaginationHelper.calculatePagination(
+        moviePages.count,
+        page,
+        limit
+      );
+
       return {
-        data: movieAll,
-        message: "Success",
+        data: {
+          movies: moviePages.rows,
+          pagination
+        }
       };
     } catch (error) {
       throw new Error(`Error fetching movies: ${error.message}`);
     }
   }
 
-  static async getMoviesPages({ page = 1, limit = 10, ...queryOptions } = {}) {
+  static async getMoviesByCategory({ slug, page = 1, limit = 30 }) {
     try {
-      const offset = (page - 1) * limit;
-      const pagination = await this.#paginationMovie({ page, limit });
-      const limitt = parseInt(limit, 10) || 10;
-      const moviePages = await Movie.findAndCountAll({
-        ...queryOptions,
-        limitt,
-        offset,
-        order: [["createdAt", "DESC"]],
-      });
+      const query = MovieQueryBuilder.buildCategoryQuery(slug, limit, page);
+      const movies = await Movie.findAll(query);
 
       return {
         data: {
-          movies: moviePages.rows,
-          pagination,
+          movies,
+          offset: PaginationHelper.calculateOffset(page, limit)
         },
+        message: "Success"
       };
     } catch (error) {
-      throw new Error(`Error fetching movies: ${error.message}`);
+      throw new Error(`Error fetching movies by category: ${error.message}`);
     }
   }
-  static async getMoviesSearch({keyword, limit, ...queryOptions} = {}) {
+
+  static async getMoviesByCountry({ slug, page = 1, limit = 30 }) {
     try {
-      const offset = (page - 1) * limit;
-      const pagination = await this.#paginationMovie({ page, limit });
-      const limitt = parseInt(limit, 10) || 10;
-      const moviePages = await Movie.findAndCountAll({
-        ...queryOptions,
-        limitt,
-        offset,
-        order: [["createdAt", "DESC"]],
-      });
-      
+      const query = MovieQueryBuilder.buildCountryQuery(slug, limit, page);
+      const movies = await Movie.findAll(query);
+
       return {
         data: {
-          movies: moviePages.rows,
-          pagination,
+          movies,
+          offset: PaginationHelper.calculateOffset(page, limit),
+          limit
         },
+        message: "Success"
       };
     } catch (error) {
-      throw new Error(`Error fetching movies: ${error.message}`);
+      throw new Error(`Error fetching movies by country: ${error.message}`);
     }
   }
-  static async findMovieSlug({
-    slug,
-    select = [
-      "_id",
-      "name",
-      "slug",
-      "origin_name",
-      "content",
-      "type",
-      "status",
-      "poster_url",
-      "thumb_url",
-      "is_copyright",
-      "sub_docquyen",
-      "chieurap",
-      "trailer_url",
-      "time",
-      "episode_current",
-      "episode_total",
-      "quality",
-      "lang",
-      "notify",
-      "showtimes",
-      "year",
-      "view",
-    ],
-  }) {
+
+  static async findMovieBySlug({ slug, select = DEFAULT_MOVIE_ATTRIBUTES }) {
     try {
       if (!Array.isArray(select)) {
-        throw new Error("Chưa chọn thuộc tính cần lấy");
+        throw new Error("Invalid attribute selection");
       }
 
-      const movie = await Movie.findOne({
-        where: { slug: slug },
-        attributes: select,
+      return await Movie.findOne({
+        where: { slug },
+        attributes: select
       });
-      return movie;
     } catch (error) {
       throw error;
     }
   }
-  static async getslug({ slug }) {
+
+  static async getMovieBySlug({ slug }) {
     try {
-      const movieSlug = await this.findMovieSlug({
-        slug,
-        select: [
-          "_id",
-          "name",
-          "slug",
-          "origin_name",
-          "content",
-          "type",
-          "status",
-          "poster_url",
-          "thumb_url",
-          "is_copyright",
-          "sub_docquyen",
-          "chieurap",
-          "trailer_url",
-          "time",
-          "episode_current",
-          "episode_total",
-          "quality",
-          "lang",
-          "notify",
-          "showtimes",
-          "year",
-          "view",
-        ],
-      });
+      const movieSlug = await this.findMovieBySlug({ slug });
       if (!movieSlug) {
-        return {
-          data: null,
-          message: "Slug not found",
-        };
+        return { data: null, message: "Slug not found" };
       }
-      const episodes = await EpisodeService.getEpisodeMovie(movieSlug._id);
-      const categories = await CategoryService.getCategoryMoive(movieSlug._id);
+
+      const [episodes, categories] = await Promise.all([
+        EpisodeService.getEpisodeMovie(movieSlug._id),
+        CategoryService.getCategoryMoive(movieSlug._id)
+      ]);
+
       return {
         data: {
           movie: {
             movieSlug,
-            category: categories,
+            category: categories
           },
-          episodes,
+          episodes
         },
-        message: "Success",
+        message: "Success"
       };
     } catch (error) {
-      throw new Error(`Error fetching movies: ${error.message}`);
+      throw new Error(`Error fetching movie by slug: ${error.message}`);
     }
   }
 
   static async getMovieDetail(movieId) {
     try {
       const movie = await Movie.findByPk(movieId, {
-        include: ["episodes", "categories", "countries"],
+        include: ["episodes", "categories", "countries"]
       });
 
       if (!movie) {
@@ -221,28 +237,22 @@ class MoviesService {
 
   static async createMovie(episodes = [], data) {
     try {
-      // Kiểm tra movie đã tồn tại
-      const existingMovie = await this.findIdMovies(data._id);
-
+      const existingMovie = await this.findMovieById(data._id).catch(() => null);
+      
       if (existingMovie) {
-        const updatedMovie = await this.updateMovie(data._id, data);
-        return updatedMovie;
+        return await this.updateMovie(data._id, data);
       }
 
-      // Tạo movie mới trong transaction
       const newMovie = await Movie.create(data);
-
       if (!newMovie) {
         throw new Error("Failed to create movie");
       }
 
-      // Xử lý các relationships
-      await this.#handleRelationships(newMovie, {
+      await RelationshipHandler.handleRelationships(newMovie, {
         categories: data.category,
         countries: data.country,
-        episodes,
+        episodes
       });
-      // await TmdbService.createTmdb(data.tmdb, newMovie._id);
 
       return newMovie;
     } catch (error) {
@@ -252,16 +262,14 @@ class MoviesService {
 
   static async updateMovie(movieId, data) {
     try {
-      // Kiểm tra movie tồn tại
-      await this.#checkMovieExists(movieId);
-
-      // Update movie
+      await this.findMovieById(movieId);
+      
       await Movie.update(data, {
         where: { _id: movieId },
-        returning: true,
+        returning: true
       });
 
-      return await this.getMovieDetail(movieId);
+      return this.getMovieDetail(movieId);
     } catch (error) {
       throw new Error(`Error updating movie: ${error.message}`);
     }
@@ -269,13 +277,12 @@ class MoviesService {
 
   static async deleteMovie(movieId) {
     try {
-      const movie = await this.#checkMovieExists(movieId);
+      const movie = await this.findMovieById(movieId);
 
-      // Xóa các relationships trước
       await Promise.all([
         EpisodeService.deleteEpisodesByMovieId(movieId),
         CategoryService.deleteCategoriesByMovieId(movieId),
-        CountryService.deleteCountriesByMovieId(movieId),
+        CountryService.deleteCountriesByMovieId(movieId)
       ]);
 
       await movie.destroy();
