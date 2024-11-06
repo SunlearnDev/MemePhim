@@ -65,6 +65,43 @@ class CawlerMoviesController {
         }
     }).send(res);
   }
+
+  static async SaveMovies(req, res, next) {
+    const { data, message } = await MovieService.saveMovies(req.body);
+    new SuccessResponse({
+        message: "message",
+        metadata: {
+            data
+        }
+    }).send(res);
+  }
+  static async SaveMovie(req, res, next) {
+    const { data, message } = await MovieService.saveMovie(req.body);
+    new SuccessResponse({
+        message: "message",
+        metadata: {
+            data
+        }
+    }).send(res);
+  }
+  static async HistoryMovies(req, res, next) {
+    const { data, message } = await MovieService.historyMovies(req.body);
+    new SuccessResponse({
+        message: "message",
+        metadata: {
+            data
+        }
+    }).send(res);
+  }
+  static async HistoryMovie(req, res, next) {
+    const { data, message } = await MovieService.historyMovie(req.body);
+    new SuccessResponse({
+        message: "message",
+        metadata: {
+            data
+        }
+    }).send(res);
+  }
 }
 
 module.exports = CawlerMoviesController;
