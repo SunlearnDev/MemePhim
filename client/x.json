@@ -1,75 +1,92 @@
 {
-    
     "status": true,
     "msg": "",
     "movie": {
         "tmdb": {
-            "type": "",
-            "id": "",
-            "season": null,
-            "vote_average": 0,
-            "vote_count": 0
+            "type": "tv",
+            "id": "45783",
+            "season": 3,
+            "vote_average": 8.5,
+            "vote_count": 539
         },
         "imdb": {
             "id": null
         },
         "created": {
-            "time": "2024-09-12T01:00:31.000Z"
+            "time": "2024-11-03T06:47:45.000Z"
         },
         "modified": {
-            "time": "2024-10-30T06:03:43.000Z"
+            "time": "2024-11-03T07:12:18.000Z"
         },
-        "_id": "03d015a5f7a729b37c5f35c89516c4b2",
-        "name": "\u0110\u1ed9c \u0110\u1ea1o",
-        "slug": "doc-dao",
-        "origin_name": "Only Way",
-        "content": "\u201c\u0110\u1ed9c \u0111\u1ea1o\u201d l\u00e0 h\u00e0nh tr\u00ecnh \u0111i t\u00ecm c\u00f4ng b\u1eb1ng cho gia \u0111\u00ecnh c\u1ee7a H\u1ed3ng \u2013 m\u1ed9t \u0111\u1ee9a tr\u1ebb b\u1ea5t h\u1ea1nh khi c\u00f9ng l\u00fac m\u1ea5t \u0111i c\u1ea3 b\u1ed1 l\u1eabn m\u1eb9 v\u00e0 l\u1ea1c m\u1ea5t \u0111\u1ee9a em trai l\u00e0 ng\u01b0\u1eddi th\u00e2n duy nh\u1ea5t c\u1ee7a m\u00ecnh. H\u1ed3ng b\u01a1 v\u01a1 th\u00ec \u0111\u01b0\u1ee3c b\u00e0 M\u1ed9c \u2013 v\u1ee3 \u00f4ng L\u00ea To\u00e0n \u0111\u01b0a v\u1ec1 nh\u00e0 ch\u0103m s\u00f3c. Nh\u1eefng t\u01b0\u1edfng H\u1ed3ng s\u1ebd c\u00f3 m\u1ed9t gia \u0111\u00ecnh m\u1edbi, m\u1ed9t cu\u1ed9c \u0111\u1eddi m\u1edbi b\u00ecnh y\u00ean, b\u00f9 \u0111\u1eafp cho nh\u1eefng b\u1ea5t h\u1ea1nh tr\u01b0\u1edbc \u0111\u00e2y, nh\u01b0ng m\u1ecdi chuy\u1ec7n kh\u00f4ng \u0111\u01a1n gi\u1ea3n nh\u01b0 th\u1ebf. Tr\u00ean h\u00e0nh tr\u00ecnh \u0111i t\u00ecm s\u1ef1 th\u1eadt v\u1ec1 qu\u00e1 kh\u1ee9, \u0111i theo nh\u1eefng \u201cch\u1ec9 d\u1eabn\u201d c\u00f3 \u0111\u01b0\u1ee3c khi\u1ebfn H\u1ed3ng ho\u00e0i nghi ch\u00ednh ng\u01b0\u1eddi b\u1ed1 nu\u00f4i l\u00e0 L\u00ea To\u00e0n.",
-        "type": "series",
-        "status": "ongoing",
-        "poster_url": "https:\/\/phimimg.com\/upload\/vod\/20240912-1\/0db8ef07872e0c69b0f1a68546066585.webp",
-        "thumb_url": "https:\/\/phimimg.com\/upload\/vod\/20240912-1\/46d5152bf0bb9421c6c0f7edd8aa648d.jpg",
+        "_id": "5d28f6eb169ebb83117ffd6b05518fc4",
+        "name": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3)",
+        "slug": "tuyen-thu-vo-hinh-phan-3",
+        "origin_name": "Kuroko's Basketball (Season 3)",
+        "content": "\u0110\u1ed9i b\u00f3ng r\u1ed5 tr\u01b0\u1eddng s\u01a1 trung Teik\u014d \u0111\u00e3 t\u1ea1o n\u00ean ti\u1ebfng t\u0103m l\u1eebng l\u1eaby b\u1eb1ng c\u00e1ch c\u00e0n qu\u00e9t h\u1ebft t\u1ea5t c\u1ea3 c\u00e1c cu\u1ed9c thi. Nh\u1eefng th\u00e0nh vi\u00ean th\u01b0\u1eddng tr\u1ef1c c\u1ee7a \u0111\u1ed9i b\u00f3ng n\u00e0y \u0111\u01b0\u1ee3c bi\u1ebft \u0111\u1ebfn v\u1edbi c\u00e1i t\u00ean &quot;Th\u1ebf H\u1ec7 Nh\u1eefng C\u1ea7u Th\u1ee7 Phi Th\u01b0\u1eddng&quot;. Sau khi t\u1ed1t nghi\u1ec7p s\u01a1 trung, n\u0103m ng\u00f4i sao c\u1ee7a \u0111\u1ed9i \u0111\u1ebfn h\u1ecdc \u1edf nh\u1eefng tr\u01b0\u1eddng trung h\u1ecdc kh\u00e1c nhau v\u1edbi nh\u1eefng \u0111\u1ed9i b\u00f3ng danh ti\u1ebfng. Tuy nhi\u00ean, c\u00f3 m\u1ed9t tin \u0111\u1ed3n r\u1eb1ng: c\u00f2n m\u1ed9t th\u00e0nh vi\u00ean n\u1eefa thu\u1ed9c &quot;Th\u1ebf H\u1ec7 Nh\u1eefng C\u1ea7u Th\u1ee7 Phi Th\u01b0\u1eddng&quot;, b\u00f3ng ma th\u1ee9 s\u00e1u. C\u1ea7u th\u1ee7 b\u00ed \u1ea9n n\u00e0y hi\u1ec7n \u0111ang l\u00e0 h\u1ecdc sinh n\u0103m nh\u1ea5t c\u1ee7a tr\u01b0\u1eddng cao trung Seirin, m\u1ed9t ng\u00f4i tr\u01b0\u1eddng m\u1edbi \u0111\u01b0\u1ee3c th\u00e0nh l\u1eadp v\u1edbi m\u1ed9t \u0111\u1ed9i b\u00f3ng \u0111\u1ea7y ti\u1ec1m n\u0103ng nh\u01b0ng \u00edt \u0111\u01b0\u1ee3c bi\u1ebft \u0111\u1ebfn. Gi\u1edd \u0111\u00e2y, Kuroko Tetsuya, th\u00e0nh vi\u00ean th\u1ee9 s\u00e1u c\u1ee7a &quot;Th\u1ebf H\u1ec7 Nh\u1eefng C\u1ea7u Th\u1ee7 Phi Th\u01b0\u1eddng&quot;, v\u00e0 Kagami Taiga, m\u1ed9t c\u1ea7u th\u1ee7 c\u00f3 n\u0103ng l\u1ef1c ti\u1ec1m \u1ea9n t\u1eebng h\u1ecdc s\u01a1 trung \u1edf M\u1ef9 \u0111ang h\u01b0\u1edbng Seirin tr\u1edf th\u00e0nh nh\u00e0 v\u00f4 \u0111\u1ecbch c\u1ee7a Nh\u1eadt B\u1ea3n, h\u1ea1 g\u1ee5c t\u1eebng th\u00e0nh vi\u00ean c\u1ee7a &quot;Th\u1ebf H\u1ec7 Nh\u1eefng C\u1ea7u Th\u1ee7 Phi Th\u01b0\u1eddng &quot;. C\u00e2u chuy\u1ec7n c\u1ee7a \u00e1nh s\u00e1ng v\u00e0 b\u00f3ng t\u1ed1i s\u1ebd \u0111i v\u1ec1 \u0111\u00e2u?",
+        "type": "hoathinh",
+        "status": "completed",
+        "poster_url": "https:\/\/phimimg.com\/upload\/vod\/20241103-1\/640f00d81671b2d87513dd2f413bc3ad.jpg",
+        "thumb_url": "https:\/\/phimimg.com\/upload\/vod\/20241103-1\/a352106c3cbbd3f0fe042d37308e7ac1.jpg",
         "is_copyright": false,
         "sub_docquyen": false,
         "chieurap": false,
         "trailer_url": "",
-        "time": "50 ph\u00fat\/t\u1eadp",
-        "episode_current": "T\u1eadp 26",
-        "episode_total": "40",
+        "time": "24 ph\u00fat\/t\u1eadp",
+        "episode_current": "Ho\u00e0n T\u1ea5t (25\/25)",
+        "episode_total": "25",
         "quality": "FHD",
         "lang": "Vietsub",
         "notify": "",
         "showtimes": "",
-        "year": 2024,
+        "year": 2015,
         "view": 0,
         "actor": [
-            "NS\u01afT Ho\u00e0ng H\u1ea3i",
-            "Duy H\u01b0ng",
-            "Do\u00e3n Qu\u1ed1c \u0110am",
-            "H\u1ed3 Phong",
-            "Thanh Hu\u1ebf",
-            "H\u00e0 Vi\u1ec7t D\u0169ng",
-            "B\u1ea3o Anh"
+            "\u5c0f\u91ce\u8ce2\u7ae0",
+            "\u5c0f\u91ce\u53cb\u6a39",
+            "\u8acf\u8a2a\u90e8\u9806\u4e00",
+            "\u5c0f\u91ce\u5927\u8f14",
+            "\u6728\u6751\u826f\u5e73",
+            "\u795e\u8c37\u6d69\u53f2",
+            "\u9234\u6751\u5065\u4e00",
+            "\u658e\u85e4\u5343\u548c",
+            "\u7d30\u8c37\u4f73\u6b63",
+            "\u91ce\u5cf6\u88d5\u53f2",
+            "\u6c5f\u53e3\u62d3\u4e5f",
+            "\u6d5c\u7530\u8ce2\u4e8c",
+            "\u4fdd\u5fd7\u7dcf\u4e00\u6717",
+            "\u6c34\u8c37\u76f4\u6a39",
+            "\u8c37\u5c71\u7d00\u7ae0",
+            "\u4e95\u4e0a\u525b",
+            "\u6298\u7b20\u5bcc\u7f8e\u5b50",
+            "\u9234\u6728\u9054\u592e",
+            "\u798f\u5c71\u6f64",
+            "\u4e09\u6728\u771e\u4e00\u90ce"
         ],
         "director": [
-            "Nguy\u1ec5n Kh\u1ea3i Anh"
+            "\u0110ang c\u1eadp nh\u1eadt"
         ],
         "category": [
             {
-                "id": "35f2b21717ff9e6e817a5ffcbf03bee2",
-                "name": "Hi\u0300nh S\u01b0\u0323",
-                "slug": "hinh-su"
+                "id": "ba6fd52e5a3aca80eaaf1a3b50a182db",
+                "name": "H\u00e0i H\u01b0\u1edbc",
+                "slug": "hai-huoc"
             },
             {
-                "id": "5060cc424f1d7d870f294cc4cf89d5c4",
-                "name": "Ha\u0300nh \u0110\u00f4\u0323ng",
-                "slug": "hanh-dong"
+                "id": "37a7b38b6184a5ebd3c43015aa20709d",
+                "name": "Ch\u00ednh K\u1ecbch",
+                "slug": "chinh-kich"
+            },
+            {
+                "id": "0c853f6238e0997ee318b646bb1978bc",
+                "name": "Tr\u1ebb Em",
+                "slug": "tre-em"
             }
         ],
         "country": [
             {
-                "id": "f6ce1ae8b39af9d38d653b8a0890adb8",
-                "name": "Vi\u1ec7t Nam",
-                "slug": "viet-nam"
+                "id": "d4097fbffa8f7149a61281437171eb83",
+                "name": "Nh\u1eadt B\u1ea3n",
+                "slug": "nhat-ban"
             }
         ]
     },
@@ -80,184 +97,177 @@
                 {
                     "name": "T\u1eadp 01",
                     "slug": "tap-01",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 01",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/eFuKghi9\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/eFuKghi9\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 01",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/4euNh5OX\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/4euNh5OX\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 02",
                     "slug": "tap-02",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 02",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/hQpMyy2T\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/hQpMyy2T\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 02",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/No3Ez6nk\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/No3Ez6nk\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 03",
                     "slug": "tap-03",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 03",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/0iyNFU6k\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/0iyNFU6k\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 03",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/DJQ2iCls\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/DJQ2iCls\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 04",
                     "slug": "tap-04",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 04",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/ntc4SBY8\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/ntc4SBY8\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 04",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/apia4xVA\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/apia4xVA\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 05",
                     "slug": "tap-05",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 05",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/HwTq1EWg\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/HwTq1EWg\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 05",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/CX41pRdX\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/CX41pRdX\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 06",
                     "slug": "tap-06",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 06",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/2ZPxt55a\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/2ZPxt55a\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 06",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/jXtTqzbe\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/jXtTqzbe\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 07",
                     "slug": "tap-07",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 07",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20240917\/TQOCUjyy\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20240917\/TQOCUjyy\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 07",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/41tAL7kf\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/41tAL7kf\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 08",
                     "slug": "tap-08",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 08",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20240918\/Gou9LAIo\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20240918\/Gou9LAIo\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 08",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/X9stXj4a\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/X9stXj4a\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 09",
                     "slug": "tap-09",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 09",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240919\/qALQAGd5\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240919\/qALQAGd5\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 09",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/IFYDSi4q\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/IFYDSi4q\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 10",
                     "slug": "tap-10",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 10",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240924\/vjknZ9WK\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240924\/vjknZ9WK\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 10",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/LUMev7cv\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/LUMev7cv\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 11",
                     "slug": "tap-11",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 11",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240926\/vosdJjfN\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240926\/vosdJjfN\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 11",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/qmqvRfUu\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/qmqvRfUu\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 12",
                     "slug": "tap-12",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 12",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240926\/wQSmEcMi\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240926\/wQSmEcMi\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 12",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/4IAroJkS\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/4IAroJkS\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 13",
                     "slug": "tap-13",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 13",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241001\/nORcrE2x\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241001\/nORcrE2x\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 13",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/7RnQGqkZ\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/7RnQGqkZ\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 14",
                     "slug": "tap-14",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 14",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241002\/HDl9vTlr\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241002\/HDl9vTlr\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 14",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/s1YA4UaI\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/s1YA4UaI\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 15",
                     "slug": "tap-15",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 15",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241003\/nJc6L6AX\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241003\/nJc6L6AX\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 15",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/6UMEKDJG\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/6UMEKDJG\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 16",
                     "slug": "tap-16",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 16",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241008\/Hf5BBTa6\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241008\/Hf5BBTa6\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 16",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/HEACz40n\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/HEACz40n\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 17",
                     "slug": "tap-17",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 17",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241009\/wspO8U9u\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241009\/wspO8U9u\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 17",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/P9FzzTpG\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/P9FzzTpG\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 18",
                     "slug": "tap-18",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 18",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241010\/7oLTXu3o\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241010\/7oLTXu3o\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 18",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/TUfhUMyV\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/TUfhUMyV\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 19",
                     "slug": "tap-19",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 19",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241015\/fpWEaj9h\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241015\/fpWEaj9h\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 19",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/jRSwohdr\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/jRSwohdr\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 20",
                     "slug": "tap-20",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 20",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241016\/MpY9wgOj\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241016\/MpY9wgOj\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 20",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/hVSg46LH\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/hVSg46LH\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 21",
                     "slug": "tap-21",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 21",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241017\/R4EzWn9H\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241017\/R4EzWn9H\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 21",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/F6HjRi5r\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/F6HjRi5r\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 22",
                     "slug": "tap-22",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 22",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241022\/HOiMx9Wi\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241022\/HOiMx9Wi\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 22",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/0dv74sVV\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/0dv74sVV\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 23",
                     "slug": "tap-23",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 23",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241023\/NviLHRwB\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241023\/NviLHRwB\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 23",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/GlLVqybu\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/GlLVqybu\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 24",
                     "slug": "tap-24",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 24",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241024\/M0gHBAJD\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241024\/M0gHBAJD\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 24",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/IDLWlhLp\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/IDLWlhLp\/index.m3u8"
                 },
                 {
                     "name": "T\u1eadp 25",
                     "slug": "tap-25",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 25",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241029\/vtw7y7ZJ\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241029\/vtw7y7ZJ\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 26",
-                    "slug": "tap-26",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 26",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241030\/WAioYedx\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241030\/WAioYedx\/index.m3u8"
+                    "filename": "Tuy\u1ec3n Th\u1ee7 V\u00f4 H\u00ecnh (Ph\u1ea7n 3) - Kuroko's Basketball (Season 3) - 2015 - 1080p - Vietsub - T\u1eadp 25",
+                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241103\/nC274NdD\/index.m3u8",
+                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241103\/nC274NdD\/index.m3u8"
                 }
             ]
         }

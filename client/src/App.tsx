@@ -23,7 +23,7 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
+    <div className="App bg-black-2">
       <ContextProvider>
         <NavBar />
         <Outlet />

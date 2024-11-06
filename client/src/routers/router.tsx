@@ -27,6 +27,10 @@ const routeObj: RouteObject[] = [
         element: <Suspense fallback={<Loader />}><Favorite /></Suspense>
       },
       {
+        path: "/:id",
+        element: <Suspense fallback={<Loader />}><Favorite /></Suspense>
+      },
+      {
         path: "/profile",
         element: <Suspense fallback={<Loader />}><Profile /></Suspense>
       },

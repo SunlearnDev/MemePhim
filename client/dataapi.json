@@ -1,0 +1,422 @@
+{
+    "status": "success",
+    "msg": "",
+    "data": {
+        "seoOnPage": {
+            "og_type": "website",
+            "titleHead": "Tv Shows | Tv Shows hay tuy\u1ec3n ch\u1ecdn | Tv Shows m\u1edbi nh\u1ea5t 2024",
+            "descriptionHead": "Tv Shows m\u1edbi nh\u1ea5t tuy\u1ec3n ch\u1ecdn ch\u1ea5t l\u01b0\u1ee3ng cao, Tv Shows m\u1edbi nh\u1ea5t 2024 vietsub c\u1eadp nh\u1eadt nhanh nh\u1ea5t. Tv Shows vietsub nhanh nh\u1ea5t",
+            "og_image": [
+                "\/upload\/vod\/20241102-1\/0809dbb9eb4d47d482e1f2f2e6a089c2.jpg",
+                "\/upload\/vod\/20241017-1\/8ce53643bb316f8fb8dc3dddd955f2ce.jpg",
+                "\/upload\/vod\/20241102-1\/fe7f70bc19d16d4079652d4a8e5d2c8f.jpg",
+                "\/upload\/vod\/20240928-1\/c3c486b2cb8b588df34426b0e1fdc1b5.jpg",
+                "\/upload\/vod\/20241011-1\/fb462da773c1fc99e681a51c3efe8073.jpg",
+                "\/upload\/vod\/20240918-1\/939f52c0f3afc7d43baab575be640d1a.jpg",
+                "\/upload\/vod\/20241021-1\/d7a5b36c062bb5cf17313f0d7bdc9465.jpg",
+                "\/upload\/vod\/20241021-1\/1bbb95d5a2f0ba50f773a71cb0540e76.jpg",
+                "\/upload\/vod\/20241021-1\/d2e96d89d75f533d8f7eddea441b8b36.jpg",
+                "\/upload\/vod\/20241021-1\/5192115e7d3302435a02044aa9909a71.jpg"
+            ],
+            "og_url": "danh-sach\/tv-shows"
+        },
+        "breadCrumb": [
+            {
+                "name": "TV Shows",
+                "slug": "\/danh-sach\/tv-shows",
+                "isCurrent": false,
+                "position": 2
+            },
+            {
+                "name": "Trang 1",
+                "isCurrent": true,
+                "position": 3
+            }
+        ],
+        "titlePage": "TV Shows",
+        "items": [
+            {
+                "modified": {
+                    "time": "2024-11-03T11:14:29.000Z"
+                },
+                "_id": "31f0a067ca77d80b3704aee9141bc2ea",
+                "name": "Tim Robinson: T\u00f4i Ngh\u0129 B\u1ea1n N\u00ean Ra V\u1ec1 (Ph\u1ea7n 2)",
+                "slug": "tim-robinson-toi-nghi-ban-nen-ra-ve-phan-2",
+                "origin_name": "I Think You Should Leave With Tim Robinson (Season 2)",
+                "type": "tvshows",
+                "poster_url": "upload\/vod\/20241102-1\/0809dbb9eb4d47d482e1f2f2e6a089c2.jpg",
+                "thumb_url": "upload\/vod\/20241102-1\/5f7cecacf768b6af4656793dc9d97707.jpg",
+                "sub_docquyen": false,
+                "chieurap": false,
+                "time": "17 ph\u00fat\/t\u1eadp",
+                "episode_current": "Ho\u00e0n T\u1ea5t (6\/6)",
+                "quality": "FHD",
+                "lang": "Vietsub",
+                "year": 2021,
+                "category": [
+                    {
+                        "id": "ba6fd52e5a3aca80eaaf1a3b50a182db",
+                        "name": "H\u00e0i H\u01b0\u1edbc",
+                        "slug": "hai-huoc"
+                    }
+                ],
+                "country": [
+                    {
+                        "id": "74d9fa92f4dea9ecea8fc2233dc7921a",
+                        "name": "\u00c2u M\u1ef9",
+                        "slug": "au-my"
+                    }
+                ]
+            },
+            {
+                "modified": {
+                    "time": "2024-11-03T06:11:34.000Z"
+                },
+                "_id": "f37cf9ea93740f0bd3177789c2b244e4",
+                "name": "Th\u1eed Th\u00e1ch Th\u1ea7n T\u01b0\u1ee3ng",
+                "slug": "thu-thach-than-tuong",
+                "origin_name": "Running Man",
+                "type": "tvshows",
+                "poster_url": "upload\/vod\/20241017-1\/8ce53643bb316f8fb8dc3dddd955f2ce.jpg",
+                "thumb_url": "upload\/vod\/20241017-1\/65a22ab2e96e79bfedf8ae96d955f72a.jpg",
+                "sub_docquyen": false,
+                "chieurap": false,
+                "time": "85 ph\u00fat\/t\u1eadp",
+                "episode_current": "T\u1eadp 725",
+                "quality": "FHD",
+                "lang": "Vietsub",
+                "year": 2010,
+                "category": [
+                    {
+                        "id": "ba6fd52e5a3aca80eaaf1a3b50a182db",
+                        "name": "H\u00e0i H\u01b0\u1edbc",
+                        "slug": "hai-huoc"
+                    },
+                    {
+                        "id": "37a7b38b6184a5ebd3c43015aa20709d",
+                        "name": "Ch\u00ednh K\u1ecbch",
+                        "slug": "chinh-kich"
+                    }
+                ],
+                "country": [
+                    {
+                        "id": "05de95be5fc404da9680bbb3dd8262e6",
+                        "name": "H\u00e0n Qu\u1ed1c",
+                        "slug": "han-quoc"
+                    }
+                ]
+            },
+            {
+                "modified": {
+                    "time": "2024-11-02T15:03:42.000Z"
+                },
+                "_id": "f4e6bccbee6057b26de5f252fa76f847",
+                "name": "Tim Robinson: T\u00f4i Ngh\u0129 B\u1ea1n N\u00ean Ra V\u1ec1 (Ph\u1ea7n 1)",
+                "slug": "tim-robinson-toi-nghi-ban-nen-ra-ve-phan-1",
+                "origin_name": "I Think You Should Leave With Tim Robinson (Season 1)",
+                "type": "tvshows",
+                "poster_url": "upload\/vod\/20241102-1\/fe7f70bc19d16d4079652d4a8e5d2c8f.jpg",
+                "thumb_url": "upload\/vod\/20241102-1\/46146659ce0e723d23f7f16bfc030e35.jpg",
+                "sub_docquyen": false,
+                "chieurap": false,
+                "time": "17 ph\u00fat\/t\u1eadp",
+                "episode_current": "Ho\u00e0n T\u1ea5t (6\/6)",
+                "quality": "FHD",
+                "lang": "Vietsub",
+                "year": 2019,
+                "category": [
+                    {
+                        "id": "ba6fd52e5a3aca80eaaf1a3b50a182db",
+                        "name": "H\u00e0i H\u01b0\u1edbc",
+                        "slug": "hai-huoc"
+                    }
+                ],
+                "country": [
+                    {
+                        "id": "74d9fa92f4dea9ecea8fc2233dc7921a",
+                        "name": "\u00c2u M\u1ef9",
+                        "slug": "au-my"
+                    }
+                ]
+            },
+            {
+                "modified": {
+                    "time": "2024-11-02T04:13:51.000Z"
+                },
+                "_id": "874e32f9341fbd8141c45090f858e30b",
+                "name": "\u0110\u01b0\u1eddng T\u1edbi Ng\u00f4i V\u01b0\u01a1ng (M\u00f9a 2)",
+                "slug": "duong-toi-ngoi-vuong-mua-2",
+                "origin_name": "Road To Kingdom: Ace Of Ace",
+                "type": "tvshows",
+                "poster_url": "upload\/vod\/20240928-1\/c3c486b2cb8b588df34426b0e1fdc1b5.jpg",
+                "thumb_url": "upload\/vod\/20240928-1\/9bd3135f535b4e577fcb0a7d4ca5342b.jpg",
+                "sub_docquyen": false,
+                "chieurap": false,
+                "time": "120 ph\u00fat\/t\u1eadp",
+                "episode_current": "T\u1eadp 7",
+                "quality": "FHD",
+                "lang": "Vietsub",
+                "year": 2024,
+                "category": [
+                    {
+                        "id": "37a7b38b6184a5ebd3c43015aa20709d",
+                        "name": "Ch\u00ednh K\u1ecbch",
+                        "slug": "chinh-kich"
+                    }
+                ],
+                "country": [
+                    {
+                        "id": "b28b3d249312674db6cc7533cbbc2936",
+                        "name": "Ha\u0300n Qu\u00f4\u0301c",
+                        "slug": "han-quoc"
+                    }
+                ]
+            },
+            {
+                "modified": {
+                    "time": "2024-10-31T20:39:09.000Z"
+                },
+                "_id": "c7cca85fb808ff22d4196d92a56b94a0",
+                "name": "Chi\u1ebfn Binh Tr\u00ean V\u0169 \u0110\u00e0i",
+                "slug": "chien-binh-tren-vu-dai",
+                "origin_name": "Stage Fighter",
+                "type": "tvshows",
+                "poster_url": "upload\/vod\/20241011-1\/fb462da773c1fc99e681a51c3efe8073.jpg",
+                "thumb_url": "upload\/vod\/20241011-1\/0910c889eb445f9fe970bd6f5ebbd990.jpg",
+                "sub_docquyen": false,
+                "chieurap": false,
+                "time": "120 ph\u00fat\/t\u1eadp",
+                "episode_current": "T\u1eadp 12",
+                "quality": "FHD",
+                "lang": "Vietsub",
+                "year": 2024,
+                "category": [
+                    {
+                        "id": "37a7b38b6184a5ebd3c43015aa20709d",
+                        "name": "Ch\u00ednh K\u1ecbch",
+                        "slug": "chinh-kich"
+                    },
+                    {
+                        "id": "fd190fc8d1698c641aa56bc1ac9738e2",
+                        "name": "Gia \u0110i\u0300nh",
+                        "slug": "gia-dinh"
+                    }
+                ],
+                "country": [
+                    {
+                        "id": "05de95be5fc404da9680bbb3dd8262e6",
+                        "name": "H\u00e0n Qu\u1ed1c",
+                        "slug": "han-quoc"
+                    }
+                ]
+            },
+            {
+                "modified": {
+                    "time": "2024-10-28T20:10:40.000Z"
+                },
+                "_id": "e28819b5d88ce9a97d9491932c3a5800",
+                "name": "Cu\u1ed9c S\u1ed1ng N\u00f4ng Th\u00f4n C\u1ee7a Gen Z",
+                "slug": "cuoc-song-nong-thon-cua-gen-z",
+                "origin_name": "Country Life Of Gen-Z",
+                "type": "tvshows",
+                "poster_url": "upload\/vod\/20240918-1\/939f52c0f3afc7d43baab575be640d1a.jpg",
+                "thumb_url": "upload\/vod\/20240918-1\/b0a9aa2053af38e3d71571f818829d4a.jpg",
+                "sub_docquyen": false,
+                "chieurap": false,
+                "time": "66 ph\u00fat\/t\u1eadp",
+                "episode_current": "T\u1eadp 8",
+                "quality": "FHD",
+                "lang": "Vietsub",
+                "year": 2024,
+                "category": [
+                    {
+                        "id": "fd190fc8d1698c641aa56bc1ac9738e2",
+                        "name": "Gia \u0110i\u0300nh",
+                        "slug": "gia-dinh"
+                    },
+                    {
+                        "id": "66c78b23908113d478d8d85390a244b4",
+                        "name": "Phi\u00eau L\u01b0u",
+                        "slug": "phieu-luu"
+                    }
+                ],
+                "country": [
+                    {
+                        "id": "05de95be5fc404da9680bbb3dd8262e6",
+                        "name": "H\u00e0n Qu\u1ed1c",
+                        "slug": "han-quoc"
+                    }
+                ]
+            },
+            {
+                "modified": {
+                    "time": "2024-10-22T12:33:49.000Z"
+                },
+                "_id": "b53f8d01835616293e994afe0ea01bdf",
+                "name": "H\u00e0nh Tr\u00ecnh \u1ea8m Th\u1ef1c C\u1ee7a Phil (Ph\u1ea7n 7)",
+                "slug": "hanh-trinh-am-thuc-cua-phil-phan-7",
+                "origin_name": "Somebody Feed Phil (Season 7)",
+                "type": "tvshows",
+                "poster_url": "upload\/vod\/20241021-1\/d7a5b36c062bb5cf17313f0d7bdc9465.jpg",
+                "thumb_url": "upload\/vod\/20241021-1\/0df5b67e99bec68b849bbd7f4caba43e.jpg",
+                "sub_docquyen": false,
+                "chieurap": false,
+                "time": "55 ph\u00fat\/t\u1eadp",
+                "episode_current": "Ho\u00e0n T\u1ea5t (8\/8)",
+                "quality": "FHD",
+                "lang": "Vietsub",
+                "year": 2024,
+                "category": [
+                    {
+                        "id": "1645fa23fa33651cef84428b0dcc2130",
+                        "name": "T\u00e0i Li\u1ec7u",
+                        "slug": "tai-lieu"
+                    }
+                ],
+                "country": [
+                    {
+                        "id": "74d9fa92f4dea9ecea8fc2233dc7921a",
+                        "name": "\u00c2u M\u1ef9",
+                        "slug": "au-my"
+                    }
+                ]
+            },
+            {
+                "modified": {
+                    "time": "2024-10-22T12:33:32.000Z"
+                },
+                "_id": "3391f7714552ccfd36c887e27dee4842",
+                "name": "H\u00e0nh Tr\u00ecnh \u1ea8m Th\u1ef1c C\u1ee7a Phil (Ph\u1ea7n 5)",
+                "slug": "hanh-trinh-am-thuc-cua-phil-phan-5",
+                "origin_name": "Somebody Feed Phil (Season 5)",
+                "type": "tvshows",
+                "poster_url": "upload\/vod\/20241021-1\/1bbb95d5a2f0ba50f773a71cb0540e76.jpg",
+                "thumb_url": "upload\/vod\/20241021-1\/9b407f2933828e4d54f9ffd6a4151c1c.jpg",
+                "sub_docquyen": false,
+                "chieurap": false,
+                "time": "50 ph\u00fat\/t\u1eadp",
+                "episode_current": "Ho\u00e0n T\u1ea5t (5\/5)",
+                "quality": "FHD",
+                "lang": "Vietsub",
+                "year": 2022,
+                "category": [
+                    {
+                        "id": "66c78b23908113d478d8d85390a244b4",
+                        "name": "Phi\u00eau L\u01b0u",
+                        "slug": "phieu-luu"
+                    },
+                    {
+                        "id": "1645fa23fa33651cef84428b0dcc2130",
+                        "name": "T\u00e0i Li\u1ec7u",
+                        "slug": "tai-lieu"
+                    }
+                ],
+                "country": [
+                    {
+                        "id": "74d9fa92f4dea9ecea8fc2233dc7921a",
+                        "name": "\u00c2u M\u1ef9",
+                        "slug": "au-my"
+                    }
+                ]
+            },
+            {
+                "modified": {
+                    "time": "2024-10-22T12:33:21.000Z"
+                },
+                "_id": "4238fc46fe869de66700ec14d6738248",
+                "name": "H\u00e0nh Tr\u00ecnh \u1ea8m Th\u1ef1c C\u1ee7a Phil (Ph\u1ea7n 4)",
+                "slug": "hanh-trinh-am-thuc-cua-phil-phan-4",
+                "origin_name": "Somebody Feed Phil (Season 4)",
+                "type": "tvshows",
+                "poster_url": "upload\/vod\/20241021-1\/d2e96d89d75f533d8f7eddea441b8b36.jpg",
+                "thumb_url": "upload\/vod\/20241021-1\/52e959be142ea20ba45e466472b96773.jpg",
+                "sub_docquyen": false,
+                "chieurap": false,
+                "time": "50 ph\u00fat\/t\u1eadp",
+                "episode_current": "Ho\u00e0n T\u1ea5t (5\/5)",
+                "quality": "FHD",
+                "lang": "Vietsub",
+                "year": 2020,
+                "category": [
+                    {
+                        "id": "66c78b23908113d478d8d85390a244b4",
+                        "name": "Phi\u00eau L\u01b0u",
+                        "slug": "phieu-luu"
+                    },
+                    {
+                        "id": "1645fa23fa33651cef84428b0dcc2130",
+                        "name": "T\u00e0i Li\u1ec7u",
+                        "slug": "tai-lieu"
+                    }
+                ],
+                "country": [
+                    {
+                        "id": "74d9fa92f4dea9ecea8fc2233dc7921a",
+                        "name": "\u00c2u M\u1ef9",
+                        "slug": "au-my"
+                    }
+                ]
+            },
+            {
+                "modified": {
+                    "time": "2024-10-22T12:33:09.000Z"
+                },
+                "_id": "0ef8fec8ddd3c6726e5325b41e61d608",
+                "name": "H\u00e0nh Tr\u00ecnh \u1ea8m Th\u1ef1c C\u1ee7a Phil (Ph\u1ea7n 3)",
+                "slug": "hanh-trinh-am-thuc-cua-phil-phan-3",
+                "origin_name": "Somebody Feed Phil (Season 3)",
+                "type": "tvshows",
+                "poster_url": "upload\/vod\/20241021-1\/5192115e7d3302435a02044aa9909a71.jpg",
+                "thumb_url": "upload\/vod\/20241021-1\/c509830519ded3925cab4968ecd57055.jpg",
+                "sub_docquyen": false,
+                "chieurap": false,
+                "time": "50 ph\u00fat\/t\u1eadp",
+                "episode_current": "Ho\u00e0n T\u1ea5t (5\/5)",
+                "quality": "FHD",
+                "lang": "Vietsub",
+                "year": 2020,
+                "category": [
+                    {
+                        "id": "66c78b23908113d478d8d85390a244b4",
+                        "name": "Phi\u00eau L\u01b0u",
+                        "slug": "phieu-luu"
+                    },
+                    {
+                        "id": "1645fa23fa33651cef84428b0dcc2130",
+                        "name": "T\u00e0i Li\u1ec7u",
+                        "slug": "tai-lieu"
+                    }
+                ],
+                "country": [
+                    {
+                        "id": "74d9fa92f4dea9ecea8fc2233dc7921a",
+                        "name": "\u00c2u M\u1ef9",
+                        "slug": "au-my"
+                    }
+                ]
+            }
+        ],
+        "params": {
+            "type_slug": "danh-sach",
+            "filterCategory": [
+                ""
+            ],
+            "filterCountry": [
+                ""
+            ],
+            "filterYear": "",
+            "filterType": "",
+            "sortField": "modified.time",
+            "sortType": "desc",
+            "pagination": {
+                "totalItems": 126,
+                "totalItemsPerPage": 10,
+                "currentPage": 1,
+                "totalPages": 13
+            }
+        },
+        "type_list": "tv-shows",
+        "APP_DOMAIN_FRONTEND": "https:\/\/phimapi.com",
+        "APP_DOMAIN_CDN_IMAGE": "https:\/\/phimimg.com"
+    }
+}

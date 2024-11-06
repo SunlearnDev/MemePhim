@@ -7,10 +7,12 @@ import { Movie, TV, TrendingVideo } from '../../Types/Movie'
 import { MediaType } from '../../services/tmdbApi'
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md'
 import SkeletonCard from '../Skeleton/SkeletonCard'
+import { TVShow } from '../../Types/TVShow'
 
 type Props = {
     className?: string,
     data: TrendingVideo[] | Movie[] | TV[],
+
     mediaType: MediaType,
     skeleton?: boolean
 }
