@@ -1,31 +1,38 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../configs/configs.mysql");
+const Movie = require("./movie.model");
 
 const Episode = sequelize.define(
   "Episode",
   {
-    movie: {
-      type: DataTypes.STRING,
+    id: {
+      type: DataTypes.UUID,
+      defaultValue: DataTypes.UUIDV4,
+      primaryKey: true,
+    },
+    movieId: {
+      type: DataTypes.UUID,
+      allowNull: false,
       references: {
-        model: "Movie",
-        key: "id",
+        model: Movie,
+        key: "_id",
       },
     },
     server_name: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     name: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     slug: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     filename: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     link_embed: {
       type: DataTypes.STRING,

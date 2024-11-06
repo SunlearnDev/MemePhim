@@ -1,11 +1,12 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../configs/configs.mysql");
 
-const Movie = sequelize.databaseVersion(
+const Movie = sequelize.define(
   "Movie",
   {
-    id: {
-      type: DataTypes.STRING,
+    _id: {
+      type: DataTypes.UUID,
+      defaultValue: DataTypes.UUIDV4,
       primaryKey: true,
     },
     name: {
@@ -97,9 +98,11 @@ const Movie = sequelize.databaseVersion(
       allowNull: true,
       defaultValue: 0,
     },
-  }, {
+  },
+  {
     sequelize,
-    modelName: 'Film',
-  });
+    modelName: "Movie",
+  }
+);
 
 module.exports = Movie;

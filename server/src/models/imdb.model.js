@@ -1,22 +1,28 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../configs/configs.mysql");
+const Movie = require("./movie.model");
 
 const Imdb = sequelize.define(
-  "Imdb",{
+  "Imdb",
+  {
+    id: {
+      type: DataTypes.UUID,
+      defaultValue: DataTypes.UUIDV4,
+      primaryKey: true,
+    },
     movieId: {
-      type: DataTypes.STRING,
+      type: DataTypes.UUID,
+      allowNull: false,
       references: {
-        model: 'movie',
-        key: 'id',
+        model: Movie,
+        key: "_id",
       },
     },
-    id: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
-  }, {
+  },
+  {
     sequelize,
-    modelName: 'Imdb',
-  });
+    modelName: "Imdb",
+  }
+);
 
 module.exports = Imdb;

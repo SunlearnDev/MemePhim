@@ -2,7 +2,18 @@ const sequelize = require("./src/configs/configs.mysql");
 const {
   User,
   UserDevices,
-  UserDeviceAssignments
+  UserDeviceAssignments,
+  Movie,
+  Tmdb,
+  Imdb,
+  Episode,
+  MovieCountry,
+  Category,
+  Country,
+  MovieCategory,
+  WatchHistory,
+  Ratingmovie,
+  SavedMovie
 } = require("./src/models/index");
 const syncDatabase = async () => {
   try {
