@@ -16,6 +16,7 @@ SwiperCore.use([Autoplay]);
 type Video = {
   _id: string;
   name: string;
+  slug: string;
   quality: string;
   year: number;
   poster_url: string;
@@ -27,7 +28,9 @@ const HeroSlide = () => {
   const { data, isLoading } = useQuery({
     queryKey: ["latest_videos"],
     queryFn: async () => {
-      const response = await fetch("https://phimapi.com/v1/api/danh-sach/hoat-hinh");
+      const response = await fetch(
+        "https://phimapi.com/v1/api/danh-sach/hoat-hinh"
+      );
       const result = await response.json();
       return result.data.items.slice(0, 7);
     },
@@ -79,7 +82,7 @@ const Slice = memo(({ video }: SliceProps) => {
           >
             {video.name}
           </Link>
-          <div className="movie-info flex items-center gap-2 sm:gap-4 md:gap-6 mt-2">
+          <div className="movie-info flex items-center gap-4 sm:gap-6 md:gap-8 mt-4">
             <Link className="quality px-3 py-0.5 flex items-center rounded bg-dark-teal font-medium text-white text-xl">
               <MdLiveTv />
               {video.quality}
@@ -90,7 +93,7 @@ const Slice = memo(({ video }: SliceProps) => {
                 <a
                   href="#"
                   key={item.slug}
-                  className="cates inline-block mr-3 text-xs text-white/60 hover:text-white transition-colors duration-300 ease-out"
+                  className="cates inline-block mr-4 text-xs text-white/60 hover:text-white transition-colors duration-300 ease-out"
                 >
                   {item.name}
                 </a>
@@ -99,14 +102,13 @@ const Slice = memo(({ video }: SliceProps) => {
           </div>
           <div className="buttons mt-8 flex gap-6">
             <Link
-              to={`/phim/${video.type}/${video._id}`}
+              to={`/phim/${video.slug}`}
               className="watch-btn banner-btn border-dark-teal text-dark-teal hover:bg-dark-teal hover:text-white"
             >
               <BsFillPlayFill size={20} /> Watch now
             </Link>
-            <button
-              className="add-btn banner-btn border-white/50 text-white/50 hover:bg-white hover:text-black"
-            >
+
+            <button className="add-btn banner-btn border-white/50 text-white/50 hover:bg-white hover:text-black">
               <BiMoviePlay size={16} /> Trailer
             </button>
           </div>

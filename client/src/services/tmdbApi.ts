@@ -55,6 +55,14 @@ const tmdbApi = {
     const url = `${media_type}/${id}/videos`;
     return axiosInstance.get<T>(url);
   },
+  getMoviesByCategoryAndCountry: <T>(category: string, country: string) => {
+    const url = `discover/movie`; // Hoặc sử dụng `discover/tv` nếu bạn cũng muốn lấy TV show
+    const params = {
+        with_genres: category, // Thể loại
+        region: country // Quốc gia
+    };
+    return axiosInstance.get<Paginate<T>>(url, { params });
+  },
 };
 
 export default tmdbApi;
