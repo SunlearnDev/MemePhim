@@ -1,22 +1,26 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../configs/configs.mysql");
+const Movie = require("./movie.model");
 
 const Tmdb = sequelize.define(
-    "Tmdb",{
+  "Tmdb",
+  {
+    id: {
+      type: DataTypes.UUID,
+      defaultValue: DataTypes.UUIDV4,
+      primaryKey: true,
+    },
     moveId: {
-      type: DataTypes.STRING,
+      type: DataTypes.UUID,
+      allowNull: false,
       references: {
-        model: 'Movie',
-        key: 'id',
+        model: Movie,
+        key: "_id",
       },
     },
     type: {
       type: DataTypes.STRING,
-      allowNull: false,
-    },
-    id: {
-      type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
     season: {
       type: DataTypes.INTEGER,
@@ -30,10 +34,11 @@ const Tmdb = sequelize.define(
       type: DataTypes.INTEGER,
       allowNull: true,
     },
-  }, {
+  },
+  {
     sequelize,
-    modelName: 'Tmdb',
-  });
+    modelName: "Tmdb",
+  }
+);
 
-
-  module.exports = Tmdb;
+module.exports = Tmdb;

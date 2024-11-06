@@ -9,7 +9,7 @@ const swaggerOptions = {
       description: 'API documentation for our application',
     },
     host: 'localhost:3003',
-    basePath: '/', // Thêm basePath nếu cần thiết
+    basePath: '/', 
   },
   apis: ['../controller/**.js'], 
 };

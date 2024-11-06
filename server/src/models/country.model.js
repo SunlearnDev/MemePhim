@@ -2,7 +2,13 @@ const { DataTypes } = require("sequelize");
 const sequelize = require("../configs/configs.mysql");
 
 const Country = sequelize.define(
-  "Country",{
+  "Country",
+  {
+    id: {
+      type: DataTypes.UUID,
+      defaultValue: DataTypes.UUIDV4,
+      primaryKey: true,
+    },
     name: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -11,10 +17,11 @@ const Country = sequelize.define(
       type: DataTypes.STRING,
       allowNull: true,
     },
-  }, {
+  },
+  {
     sequelize,
-    modelName: 'Country',
-  });
+    modelName: "Country",
+  }
+);
 
-  module.exports = Country;
-
+module.exports = Country;

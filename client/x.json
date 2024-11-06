@@ -1,265 +1,95 @@
 {
-    
-    "status": true,
+    "status": "success",
     "msg": "",
-    "movie": {
-        "tmdb": {
-            "type": "",
-            "id": "",
-            "season": null,
-            "vote_average": 0,
-            "vote_count": 0
+    "data": {
+        "seoOnPage": {
+            "og_type": "website",
+            "titleHead": "Phim hoạt hình | Phim hoạt hình hay tuyển chọn | Phim hoạt hình mới nhất 2024",
+            "descriptionHead": "Phim hoạt hình mới nhất tuyển chọn chất lượng cao, Phim hoạt hình mới nhất 2024 vietsub cập nhật nhanh nhất. Phim hoạt hình vietsub nhanh nhất",
+            "og_image": [
+                "/upload/vod/20241102-1/e03d31bee2807351ff6af645e1447bc7.jpg",
+                "/upload/vod/20241102-1/760174e813a5d4a744aa1f2bcbe730f0.jpg",
+                "/upload/vod/20241102-1/30f4b8cd46e16ef46240b25233b0c69f.jpg",
+                "/upload/vod/20240821-1/a651652396e9f53c09cd88d28700d5c4.jpg",
+                "/upload/vod/20240819-1/93b19a206e073aaa523cf4371eb3347c.jpg",
+                "/upload/vod/20240310-1/025424cf62248b9a7b54279ef5416e26.jpg",
+                "/upload/vod/20240713-1/6c7557779fba2e7ac72e1b4223597e07.jpg",
+                "/upload/vod/20241001-1/128866a1dfaf60119e170c5c9d5c7ef7.jpg",
+                "/upload/vod/20241013-1/0fae7296f2e1a31e55deb61fe6db7a03.jpg",
+                "/upload/vod/20241005-1/00e8698660b55f756067e5954c39d8d5.jpg"
+            ],
+            "og_url": "danh-sach/hoat-hinh"
         },
-        "imdb": {
-            "id": null
-        },
-        "created": {
-            "time": "2024-09-12T01:00:31.000Z"
-        },
-        "modified": {
-            "time": "2024-10-30T06:03:43.000Z"
-        },
-        "_id": "03d015a5f7a729b37c5f35c89516c4b2",
-        "name": "\u0110\u1ed9c \u0110\u1ea1o",
-        "slug": "doc-dao",
-        "origin_name": "Only Way",
-        "content": "\u201c\u0110\u1ed9c \u0111\u1ea1o\u201d l\u00e0 h\u00e0nh tr\u00ecnh \u0111i t\u00ecm c\u00f4ng b\u1eb1ng cho gia \u0111\u00ecnh c\u1ee7a H\u1ed3ng \u2013 m\u1ed9t \u0111\u1ee9a tr\u1ebb b\u1ea5t h\u1ea1nh khi c\u00f9ng l\u00fac m\u1ea5t \u0111i c\u1ea3 b\u1ed1 l\u1eabn m\u1eb9 v\u00e0 l\u1ea1c m\u1ea5t \u0111\u1ee9a em trai l\u00e0 ng\u01b0\u1eddi th\u00e2n duy nh\u1ea5t c\u1ee7a m\u00ecnh. H\u1ed3ng b\u01a1 v\u01a1 th\u00ec \u0111\u01b0\u1ee3c b\u00e0 M\u1ed9c \u2013 v\u1ee3 \u00f4ng L\u00ea To\u00e0n \u0111\u01b0a v\u1ec1 nh\u00e0 ch\u0103m s\u00f3c. Nh\u1eefng t\u01b0\u1edfng H\u1ed3ng s\u1ebd c\u00f3 m\u1ed9t gia \u0111\u00ecnh m\u1edbi, m\u1ed9t cu\u1ed9c \u0111\u1eddi m\u1edbi b\u00ecnh y\u00ean, b\u00f9 \u0111\u1eafp cho nh\u1eefng b\u1ea5t h\u1ea1nh tr\u01b0\u1edbc \u0111\u00e2y, nh\u01b0ng m\u1ecdi chuy\u1ec7n kh\u00f4ng \u0111\u01a1n gi\u1ea3n nh\u01b0 th\u1ebf. Tr\u00ean h\u00e0nh tr\u00ecnh \u0111i t\u00ecm s\u1ef1 th\u1eadt v\u1ec1 qu\u00e1 kh\u1ee9, \u0111i theo nh\u1eefng \u201cch\u1ec9 d\u1eabn\u201d c\u00f3 \u0111\u01b0\u1ee3c khi\u1ebfn H\u1ed3ng ho\u00e0i nghi ch\u00ednh ng\u01b0\u1eddi b\u1ed1 nu\u00f4i l\u00e0 L\u00ea To\u00e0n.",
-        "type": "series",
-        "status": "ongoing",
-        "poster_url": "https:\/\/phimimg.com\/upload\/vod\/20240912-1\/0db8ef07872e0c69b0f1a68546066585.webp",
-        "thumb_url": "https:\/\/phimimg.com\/upload\/vod\/20240912-1\/46d5152bf0bb9421c6c0f7edd8aa648d.jpg",
-        "is_copyright": false,
-        "sub_docquyen": false,
-        "chieurap": false,
-        "trailer_url": "",
-        "time": "50 ph\u00fat\/t\u1eadp",
-        "episode_current": "T\u1eadp 26",
-        "episode_total": "40",
-        "quality": "FHD",
-        "lang": "Vietsub",
-        "notify": "",
-        "showtimes": "",
-        "year": 2024,
-        "view": 0,
-        "actor": [
-            "NS\u01afT Ho\u00e0ng H\u1ea3i",
-            "Duy H\u01b0ng",
-            "Do\u00e3n Qu\u1ed1c \u0110am",
-            "H\u1ed3 Phong",
-            "Thanh Hu\u1ebf",
-            "H\u00e0 Vi\u1ec7t D\u0169ng",
-            "B\u1ea3o Anh"
-        ],
-        "director": [
-            "Nguy\u1ec5n Kh\u1ea3i Anh"
-        ],
-        "category": [
+        "breadCrumb": [
             {
-                "id": "35f2b21717ff9e6e817a5ffcbf03bee2",
-                "name": "Hi\u0300nh S\u01b0\u0323",
-                "slug": "hinh-su"
+                "name": "Phim Hoạt Hình",
+                "slug": "/danh-sach/hoat-hinh",
+                "isCurrent": false,
+                "position": 2
             },
             {
-                "id": "5060cc424f1d7d870f294cc4cf89d5c4",
-                "name": "Ha\u0300nh \u0110\u00f4\u0323ng",
-                "slug": "hanh-dong"
+                "name": "Trang 1",
+                "isCurrent": true,
+                "position": 3
             }
         ],
-        "country": [
+        "titlePage": "Phim Hoạt Hình",
+        "items": [
             {
-                "id": "f6ce1ae8b39af9d38d653b8a0890adb8",
-                "name": "Vi\u1ec7t Nam",
-                "slug": "viet-nam"
+                "modified": {
+                    "time": "2024-11-02T15:41:32.000Z"
+                },
+                "_id": "d140b46b9030bd231b950b3e6cf02ee4",
+                "name": "Haikyu!!: Trận Chiến Bãi Phế Liệu",
+                "slug": "haikyu-tran-chien-bai-phe-lieu",
+                "origin_name": "HAIKYU!! The Dumpster Battle",
+                "type": "hoathinh",
+                "poster_url": "upload/vod/20241102-1/e03d31bee2807351ff6af645e1447bc7.jpg",
+                "thumb_url": "upload/vod/20241102-1/61f3894bee443c5281ec28b4914bc65a.jpg",
+                "sub_docquyen": false,
+                "chieurap": true,
+                "time": "85 phút",
+                "episode_current": "Full",
+                "quality": "FHD",
+                "lang": "Vietsub",
+                "year": 2024,
+                "category": [
+                    {
+                        "id": "37a7b38b6184a5ebd3c43015aa20709d",
+                        "name": "Chính Kịch",
+                        "slug": "chinh-kich"
+                    }
+                ],
+                "country": [
+                    {
+                        "id": "d4097fbffa8f7149a61281437171eb83",
+                        "name": "Nhật Bản",
+                        "slug": "nhat-ban"
+                    }
+                ]
             }
-        ]
-    },
-    "episodes": [
-        {
-            "server_name": "#H\u00e0 N\u1ed9i (Vietsub)",
-            "server_data": [
-                {
-                    "name": "T\u1eadp 01",
-                    "slug": "tap-01",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 01",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/eFuKghi9\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/eFuKghi9\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 02",
-                    "slug": "tap-02",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 02",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/hQpMyy2T\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/hQpMyy2T\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 03",
-                    "slug": "tap-03",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 03",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/0iyNFU6k\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/0iyNFU6k\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 04",
-                    "slug": "tap-04",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 04",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/ntc4SBY8\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/ntc4SBY8\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 05",
-                    "slug": "tap-05",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 05",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/HwTq1EWg\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/HwTq1EWg\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 06",
-                    "slug": "tap-06",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 06",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240912\/2ZPxt55a\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240912\/2ZPxt55a\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 07",
-                    "slug": "tap-07",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 07",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20240917\/TQOCUjyy\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20240917\/TQOCUjyy\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 08",
-                    "slug": "tap-08",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 08",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20240918\/Gou9LAIo\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20240918\/Gou9LAIo\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 09",
-                    "slug": "tap-09",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 09",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240919\/qALQAGd5\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240919\/qALQAGd5\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 10",
-                    "slug": "tap-10",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 10",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240924\/vjknZ9WK\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240924\/vjknZ9WK\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 11",
-                    "slug": "tap-11",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 11",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240926\/vosdJjfN\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240926\/vosdJjfN\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 12",
-                    "slug": "tap-12",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 12",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20240926\/wQSmEcMi\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20240926\/wQSmEcMi\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 13",
-                    "slug": "tap-13",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 13",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241001\/nORcrE2x\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241001\/nORcrE2x\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 14",
-                    "slug": "tap-14",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 14",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241002\/HDl9vTlr\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241002\/HDl9vTlr\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 15",
-                    "slug": "tap-15",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 15",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241003\/nJc6L6AX\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241003\/nJc6L6AX\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 16",
-                    "slug": "tap-16",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 16",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241008\/Hf5BBTa6\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241008\/Hf5BBTa6\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 17",
-                    "slug": "tap-17",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 17",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241009\/wspO8U9u\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241009\/wspO8U9u\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 18",
-                    "slug": "tap-18",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 18",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241010\/7oLTXu3o\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241010\/7oLTXu3o\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 19",
-                    "slug": "tap-19",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 19",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241015\/fpWEaj9h\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241015\/fpWEaj9h\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 20",
-                    "slug": "tap-20",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 20",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241016\/MpY9wgOj\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241016\/MpY9wgOj\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 21",
-                    "slug": "tap-21",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 21",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241017\/R4EzWn9H\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241017\/R4EzWn9H\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 22",
-                    "slug": "tap-22",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 22",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241022\/HOiMx9Wi\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241022\/HOiMx9Wi\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 23",
-                    "slug": "tap-23",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 23",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s4.phim1280.tv\/20241023\/NviLHRwB\/index.m3u8",
-                    "link_m3u8": "https:\/\/s4.phim1280.tv\/20241023\/NviLHRwB\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 24",
-                    "slug": "tap-24",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 24",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241024\/M0gHBAJD\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241024\/M0gHBAJD\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 25",
-                    "slug": "tap-25",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 25",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241029\/vtw7y7ZJ\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241029\/vtw7y7ZJ\/index.m3u8"
-                },
-                {
-                    "name": "T\u1eadp 26",
-                    "slug": "tap-26",
-                    "filename": "\u0110\u1ed9c \u0110\u1ea1o - Only Way - 2024 - 1080p - Vietsub - T\u1eadp 26",
-                    "link_embed": "https:\/\/player.phimapi.com\/player\/?url=https:\/\/s5.phim1280.tv\/20241030\/WAioYedx\/index.m3u8",
-                    "link_m3u8": "https:\/\/s5.phim1280.tv\/20241030\/WAioYedx\/index.m3u8"
-                }
-            ]
-        }
-    ]
+        ],
+        "params": {
+            "type_slug": "danh-sach",
+            "filterCategory": [
+                ""
+            ],
+            "filterCountry": [
+                ""
+            ],
+            "filterYear": "",
+            "filterType": "",
+            "sortField": "modified.time",
+            "sortType": "desc",
+            "pagination": {
+                "totalItems": 1989,
+                "totalItemsPerPage": 10,
+                "currentPage": 1,
+                "totalPages": 199
+            }
+        },
+        "type_list": "hoat-hinh",
+        "APP_DOMAIN_FRONTEND": "https://phimapi.com",
+        "APP_DOMAIN_CDN_IMAGE": "https://phimimg.com"
+    }
 }

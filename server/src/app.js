@@ -6,6 +6,7 @@ const compression = require("compression");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
+require('dotenv').config();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -21,9 +22,10 @@ app.use(
     optionsSuccessStatus: 200, // Cho phép gửi cookies và các thông tin xác thực
   })
 );
-const swaggerUi = require('swagger-ui-express');
-const swaggerDocs = require('../src/configs/swaggerOptions');
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+require("./jobs/cronJob")
+const swaggerUi = require("swagger-ui-express");
+const swaggerDocs = require("../src/configs/swaggerOptions");
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 // Database
 require("./configs/configs.mysql");
 // Routes
